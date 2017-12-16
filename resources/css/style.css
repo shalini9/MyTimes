@@ -1,8 +1,21 @@
 /*Header & Navigation*/
 header {
-display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+header .logo-text h3 {
+  color: MediumAquamarine;
+  display: inline;
+  padding: 10px;
 }
 
-header .logo h3 {
-  color: red;
+header nav span a {
+  display: inline-block;
+  padding: 10px;
 }
