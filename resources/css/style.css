@@ -1,4 +1,8 @@
 /*Header & Navigation*/
-.logo {
+header {
+display: flex;
+}
+
+header .logo h3 {
   color: red;
 }
