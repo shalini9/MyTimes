@@ -5,14 +5,15 @@ header {
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid black;
   }
 
-header .logo-text h3 {
-  color: MediumAquamarine;
-  display: inline;
-  padding: 10px;
+  header .logo-text h3 {
+    color: MediumAquamarine;
+    display: inline;
+    padding: 10px;
 }
 
 header nav span a {
