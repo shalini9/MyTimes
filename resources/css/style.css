@@ -27,33 +27,57 @@ header {
 
 /*Main Section*/
 
-.container {
+.box {
+  text-align: center;
+}
+
+.box .background-image {
   display: flex;
-  flex-direction: row;
-  border: 1px, solid, black;
+  flex-direction: column;
+}
+
+.tuna {
+  background-image: url(./resources/images/tuna.png);
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: green;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column-large {
   display: flex;
-  flex direction: column;
+  flex-direction: column;
   width: 630px;
 }
 
 .column-medium {
-  flex direction: column;
+  flex-direction: column;
   display: flex;
   width: 300px;
 }
 
 .column-small {
-  flex direction: column;
+  flex-direction: column;
   display: flex;
   width: 240px;
 }
 
-.box {
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 1px, solid, black;
+  justify-content: space-between;
 }
+
 
 section div {
   border: 1px solid black;
