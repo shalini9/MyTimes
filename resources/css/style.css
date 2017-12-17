@@ -7,7 +7,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid black
   }
 
   header .logo-text h3 {
@@ -27,24 +27,11 @@ header {
 
 /*Main Section*/
 
-.box {
-  text-align: center;
-}
-
-.box .background-image {
-  display: flex;
-  flex-direction: column;
-}
-
-.tuna {
-  background-image: url(./resources/images/tuna.png);
-}
-
-h1 {
+h1, h3 {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  color: green;
+  color: white;
 }
 
 p {
@@ -52,6 +39,32 @@ p {
   font-size: 17px;
   color: black;
 }
+
+.autumn {
+  background-image: url(../images/autumn.png);
+}
+
+.box {
+  text-align: left;
+}
+
+.box .background-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-large h1 {
+  font-size: 40px;
+}
+
+.camera {
+  background-image: url(../images/camera.png);
+}
+
+.cat {
+  background-image: url(../images/cat.png);
+}
+
 
 .column-large {
   display: flex;
@@ -78,7 +91,12 @@ p {
   justify-content: space-between;
 }
 
+.horizontal-align {
+  display: flex;
+  align-content: flex-start;
+  margin: 0px 10px;
+}
 
-section div {
-  border: 1px solid black;
+.tuna {
+  background-image: url(../images/tuna.png);
 }
