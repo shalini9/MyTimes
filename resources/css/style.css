@@ -51,3 +51,7 @@ header {
 .box {
   text-align: center;
 }
+
+section div {
+  border: 1px solid black;
+}
