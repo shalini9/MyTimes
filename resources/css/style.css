@@ -35,15 +35,18 @@ header {
 
 .column-large {
   display: flex;
+  flex direction: column;
   width: 630px;
 }
 
 .column-medium {
+  flex direction: column;
   display: flex;
   width: 300px;
 }
 
 .column-small {
+  flex direction: column;
   display: flex;
   width: 240px;
 }
