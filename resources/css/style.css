@@ -42,6 +42,7 @@ p {
 
 .autumn {
   background-image: url(../images/autumn.png);
+  height: 280px;
 }
 
 .box {
@@ -59,10 +60,12 @@ p {
 
 .camera {
   background-image: url(../images/camera.png);
+  height: 280px;
 }
 
 .cat {
   background-image: url(../images/cat.png);
+  height: 280px;
 }
 
 
@@ -99,4 +102,5 @@ p {
 
 .tuna {
   background-image: url(../images/tuna.png);
+  height: 300px;
 }
