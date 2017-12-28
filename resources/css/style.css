@@ -21,7 +21,7 @@ header {
   padding: 10px;
   }
 
-  .logo-text {
+  header .logo-text {
   display: flex;
   }
 
@@ -32,6 +32,11 @@ h1, h3 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 p {
@@ -100,7 +105,60 @@ p {
   margin: 0px 10px;
 }
 
+.news-container {
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.news-box p {
+  color: DimGray;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  margin: 0px;
+  padding: 5px 0px;
+}
+
 .tuna {
   background-image: url(../images/tuna.png);
   height: 290px;
 }
+
+/*Footer*/
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 40px;
+  }
+
+  footer .logo-text h3 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline;
+  padding: 10px;
+  }
+
+  footer .logo-text {
+  display: flex;
+  }
+
+  .text-2016 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-2016 p {
+    display: inline-block;
+  }
